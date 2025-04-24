@@ -32,7 +32,7 @@ for _ in range(m):
     graph[j].append(i) # 양방향 그래프
 
 for key in graph:
-    graph[key].sort() # 노드를 오름차순으로 정렬렬
+    graph[key].sort() # 노드를 오름차순으로 정렬
 
 visited = set() # 중복을 방지하기 위함
 dfs(graph, v, visited)
